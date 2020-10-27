@@ -159,7 +159,8 @@ header nav li {
 }
 
 .hero a.btn {
-    padding: 20px 46px;
+    padding: 15px 35px;
+    background-color:  #2874A6;
 }
 
 .hero-content {
@@ -280,6 +281,7 @@ header nav li {
 
 .contact form .btn {
     padding: 18px 42px;
+    background-color:  #2874A6;
 }
 
 .contact form input {
@@ -303,7 +305,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #607d8b;
+    background-color: #5499C7;
     color: #fff;
     padding: 20px 0;
 }
