@@ -162,7 +162,7 @@ header nav li {
     padding: 20px 46px;
 }
 
-.hero-content-area {
+.hero-content {
     opacity: 0;
     margin-top: 100px;
     animation: 1s slidefade 1s forwards;
