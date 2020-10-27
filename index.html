@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkyHigh Tours</title>
-    <link href="styles.css" rel="stylesheet" >
+    <link href="styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=QuickSand" rel="stylesheet">
     <script src="https://kit.fontawesome.com/13b6adc21e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <h2>
@@ -22,10 +24,14 @@
     </header>
 
     <section class="hero">
-        <video class="background-video" autoplay loop>
+        <!--
+            Video worked properly on localhost but wasnt supported on gh-pages
+
+             <video class="background-video" autoplay loop>
             <source src="assets/video/openingVideo.mp4" type="video/mp4">
-        </video>
-        <!-- <div class="background-image" style="background-image: url(assets/images/main.jpg);"></div> -->
+        </video> 
+    -->
+        <div class="background-image" style="background-image: url(assets/images/main.jpg);"></div>
         <div class="hero-content">
             <h1>SkyHigh Tours</h1>
             <h3>Unmissable Adventure Tours Around The World</h3>
@@ -35,8 +41,9 @@
 
     <section class="destinations">
         <h3 class="title"> Some of our destinations</h3>
-        <p> Come along to many adventures. You love water? We know just the right place for you. 
-            You like history, you bet we have something. Looking for a view that just immersive? Here are some pictures of our travels!</p>
+        <p> Come along to many adventures. You love water? We know just the right place for you.
+            You like history, you bet we have something. Looking for a view that just immersive? Here are some pictures
+            of our travels!</p>
         <hr>
         <ul class="grid">
             <li class="small" style="background-image: url(assets/images/castle.jpg)"></li>
@@ -56,12 +63,14 @@
             <li>
                 <i class="fa fa-compass fa-4x"></i>
                 <h4>Guided Trips</h4>
-                <p>Looking for the complete experience? Take a tour with one of our experts. They'll show you secrets that you're likely to miss otherwise.</p>
+                <p>Looking for the complete experience? Take a tour with one of our experts. They'll show you secrets
+                    that you're likely to miss otherwise.</p>
             </li>
             <li>
                 <i class="fa fa-camera-retro fa-4x"></i>
                 <h4>Photo Trips</h4>
-                <p>Want to experience nature's beauty without all of that annoying exercise? Take a photo tour on one of our mountain buses.</p>
+                <p>Want to experience nature's beauty without all of that annoying exercise? Take a photo tour on one of
+                    our mountain buses.</p>
             </li>
             <li>
                 <i class="fab fa-fort-awesome-alt fa-4x"></i>
@@ -79,10 +88,11 @@
     <section class="testimonials">
         <h3 class="title"> Testimonials from adventures:</h3>
         <hr>
-        <p class="quote">I didn't know which choice to pick and after going to one I realised there was never a problem. 
+        <p class="quote">I didn't know which choice to pick and after going to one I realised there was never a problem.
             I need to go experience all of them!</p>
         <p class="author">-Ashley Ashley</p>
-        <p class="quote">I never understood why people cared so much about mountains. But then I went on one of these tours. 
+        <p class="quote">I never understood why people cared so much about mountains. But then I went on one of these
+            tours.
             Now I can't understand people who <em>don't</em> care about mountains!</p>
         <p class="author">- Sam Walter</p>
         <p class="quote">I wanted a boat. I got a boat. I am happy.</p>
@@ -91,7 +101,8 @@
 
     <section class="contact">
         <h3 class="title">Learn more</h3>
-        <p> Want to know more about our upcoming events? Just sign up for our mailing list. No spam from us, we promise!</p>
+        <p> Want to know more about our upcoming events? Just sign up for our mailing list. No spam from us, we promise!
+        </p>
         <hr>
         <form>
             <input type="email" placeholder="Email">
@@ -109,4 +120,5 @@
         </ul>
     </footer>
 </body>
+
 </html>
